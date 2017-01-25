@@ -1,6 +1,8 @@
 # coursera-html-css-js-for-web-devs
 This repository contains my coursework for the Coursera.org course [HTML, CSS &amp; Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers).
 
+View my [GitHub Pages Page](https://xander621.github.io/coursera-html-css-js-for-web-devs/)
+
 # _**Tools, Documentation &amp; Useful Links**_
 
 ## _Developer Tools &amp; Documentation_
