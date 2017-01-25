@@ -20,6 +20,6 @@ This section includes links to sites that were introduced in the course or that 
 # _**Browser-Sync**_
 This is the basic command for running browser-sync via localhost
 
-'''bash
+```bash
 browser-sync start --server --directory --files "*"
-'''
+```
