@@ -7,7 +7,7 @@ This repository contains my coursework for the Coursera.org course [HTML, CSS &a
 This section includes links to the tools recommended by the course instructor &amp; others that I regularly use.
 
 * [Sublime Text](https://www.sublimetext.com/)
-	* [Emmet](http://emmet.io/): Plugin for Sublime Text
+  * [Emmet](http://emmet.io/): Plugin for Sublime Text
 * [W3C Validator](https://validator.w3.org/)
 * [Bootstrap](http://getbootstrap.com/getting-started/)
 * [jQuery](http://jquery.com/download/)
