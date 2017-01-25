@@ -2,6 +2,7 @@
 This repository contains my coursework for the Coursera.org course [HTML, CSS &amp; Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers).
 
 # _**Tools, Documentation &amp; Useful Links**_
+
 ## _Developer Tools &amp; Documentation_
 This section includes links to the tools recommended by the course instructor &amp; others that I regularly use.
 
