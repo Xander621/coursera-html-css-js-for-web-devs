@@ -1,12 +1,14 @@
 # coursera-html-css-js-for-web-devs
 This repository contains my coursework for the Coursera.org course [HTML, CSS &amp; Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers).
 
-# _**Tools &amp; Useful Links**_
-## _Developer Tools_
+# _**Tools, Documentation &amp; Useful Links**_
+## _Developer Tools &amp; Documentation_
 This section includes links to the tools recommended by the course instructor &amp; others that I regularly use.
 * [Sublime Text](https://www.sublimetext.com/)
 	* [Emmet](http://emmet.io/): Plugin for Sublime Text
 * [W3C Validator](https://validator.w3.org/)
+* [Bootstrap](http://getbootstrap.com/getting-started/)
+* [jQuery](http://jquery.com/download/)
 
 ## _Developer Links_
 This section includes links to sites that were introduced in the course or that I have found useful on my own.
@@ -16,4 +18,8 @@ This section includes links to sites that were introduced in the course or that 
 * [CSS Zen Garden](http://www.csszengarden.com/)
 
 # _**Browser-Sync**_
+This is the basic command for running browser-sync via localhost
 
+'''bash
+browser-sync start --server --directory --files "*"
+'''
