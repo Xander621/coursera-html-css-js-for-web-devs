@@ -10,10 +10,14 @@ h1 {
   font-size: 1.75em;
 }
 
+body {
+  background-color: skyblue;
+}
+
 /********** Custom Styles **********/
 .container {
   float: left;
-  background-color: 999999;
+  background-color: #999999;
   border: 1px solid black;
   margin: 15px;
 }
@@ -28,14 +32,14 @@ h1 {
 }
 
 .title-color-red {
-  background-color: C34145;
+  background-color: #C34145;
   color: white
 }
 .title-color-salmon {
-  background-color: D69798;
+  background-color: #D69798;
 }
 .title-color-yellow {
-  background-color: E5D09E;
+  background-color: #E5D09E;
 }
 
 .body {
