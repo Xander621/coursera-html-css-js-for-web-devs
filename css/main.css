@@ -10,44 +10,13 @@ h1 {
   font-size: 1.75em;
 }
 
-/********** Custom Styles **********/
-.container {
-  float: left;
-  background-color: 999999;
-  border: 1px solid black;
-  margin: 15px;
-}
-
-.title, .title-color-salmon, .title-color-red, .title-color-yellow {
-  float: right;
-  width: 150px;
-  height: 32px;
-  border: 1px solid black;
-  text-align: center;
-  font-size: 1.25em;
-}
-
-.title-color-red {
-  background-color: C34145;
-  color: white
-}
-.title-color-salmon {
-  background-color: D69798;
-}
-.title-color-yellow {
-  background-color: E5D09E;
-}
-
-.body {
-  float: right;
-  text-align: left;
-  margin: 8px;
+body {
+  background-color: #87CEEB;
 }
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, 
-  .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
   .col-lg-1 {
@@ -90,8 +59,7 @@ h1 {
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, 
-  .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
   .col-md-1 {
@@ -130,4 +98,38 @@ h1 {
   .col-md-12 {
     width: 100%;
   }
+}
+
+/********** Custom Styles **********/
+.container {
+  float: left;
+  background-color: #999999;
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.title, .title-color-salmon, .title-color-red, .title-color-yellow {
+  float: right;
+  width: 150px;
+  height: 32px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+.title-color-red {
+  background-color: #C34145;
+  color: white;
+}
+.title-color-salmon {
+  background-color: #D69798;
+}
+.title-color-yellow {
+  background-color: #E5D09E;
+}
+
+.body {
+  float: right;
+  text-align: left;
+  margin: 8px;
 }
