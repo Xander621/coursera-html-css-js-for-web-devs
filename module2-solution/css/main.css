@@ -1,33 +1,50 @@
-/********** Base styles **********/
 * {
   box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 h1 {
   text-align: center;
   margin-bottom: 15px;
+  font-size: 1.75em;
 }
 
-p {
+.container {
+  float: left;
+  background-color: 999999;
   border: 1px solid black;
-  background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: white;
+  margin: 15px;
 }
 
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
+.title, .title-color-salmon, .title-color-red, .title-color-yellow {
+  float: right;
+  width: 150px;
+  height: 32px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 1.25em;
 }
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+.title-color-red {
+  background-color: C34145;
+  color: white
+}
+.title-color-salmon {
+  background-color: D69798;
+}
+.title-color-yellow {
+  background-color: E5D09E;
+}
+
+.body {
+  float: right;
+  text-align: left;
+  margin: 8px;
+}
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, 
+  .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -68,10 +85,10 @@ p {
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, 
+  .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-md-1 {
     width: 8.33%;
