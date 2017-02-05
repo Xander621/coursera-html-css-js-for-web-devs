@@ -1,85 +1,63 @@
 /********** Global Styles **********/
-* {
-	box-sizing: border-box;
-}
-
 body {
-  font-size: 16px;
-  color: #fff;
-  background-color: #67697C;
-  font-family: 'Oxygen', sans-serif;
+  	font-size: 16px;
+  	color: #fff;
+  	background-color: #67697C;
+  	font-family: 'Sansita', sans-serif;
 }
 
 /********** Header and Navigation Bar **********/
 #header-nav {
-  background-color: #253D5B;
-  border-radius: 0;
-  border: 0;
+  	background-color: #253D5B;
+  	border-radius: 0;
+  	border: 0;
 }
 
 .navbar-brand {
-  padding-top: 25px;
+  	padding-top: 25px;
 }
 
 .navbar-brand h1 {
-  font-family: 'Lora', serif;
-  color: #C6878F;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
+  	color: #C6878F;
+  	font-size: 1.7em;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	padding-bottom: 10px;
+  	line-height: .75;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
+ 	text-decoration: none;
 }
 
-/*
+
 #nav-list {
-  margin-top: 10px;
+ 	margin-top: 10px;
 }
 
-#nav-list a {
-  color: #951C49;
-  text-align: center;
-}
-
-#nav-list a:hover {
-  background: #E7E7E7;
-}
-
-#nav-list a span {
-  font-size: 1.8em;
-}
-*/
-
-/*
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid #C6878F;
 }
+
 .navbar-header button.navbar-toggle {
-  clear: both;
- */
+ 	clear: both;
+ 	margin-top: -30px;
+}
 
 /********** Main Content **********/
 #main_title {
 	color: #B79D94;
 	font-size: 1.8em;
 	text-shadow: 1px 1px 1px #222;
-	text-align: center;
-}
-
-#title_break {
-	margin-right: 50px;
-	margin-left: 50px;
+	margin-bottom: 25px;
 }
 
 #menu_item {
 	height: 100%;
 	width: 100%;
+	padding: 10px;
 	margin-bottom: 15px;
 	overflow: hidden;
 	background-color: #969696;
@@ -87,19 +65,43 @@ body {
 	box-shadow: 0 1px 5px 1px #B79D94;
 }
 
-#menu_subtitle {
+#menu_subtitle_chicken, #menu_subtitle_beef, #menu_subtitle_sushi {
 	font-size: 1.3em;
 	font-style: italic;
 	text-shadow: 1px 1px 1px #222;
 	text-align: center;
 }
 
-#menu_content {
-
-
+#back_to_top {
+	margin-top: 15px;
 }
 
+@media (min-width: 768px) {
+	/* Turn off the hover pointer for the nav list for anything over super small displays */
+	#collapsable-nav a {
+		pointer-events: none;
+	}
+}
 
+@media (max-width: 767px) {
 
+	#collapsable-nav {
+		background-color: #4281A4;
+	}
 
-/********** Footer **********/
+	#nav-list a {
+ 		color: #B79D94;
+ 		text-align: center;
+	}
+
+	#nav-list a span {
+  		font-size: 1.4em;
+  		font-style: italic;
+  		text-shadow: 1px 1px 1px #222;
+	}
+
+	#nav-list a:hover {
+		background-color: #48A9A6;
+	}
+
+}
