@@ -4,6 +4,7 @@ This repository contains my coursework for the Coursera.org course [HTML, CSS &a
 * View my [Module 2 Assignment](https://xander621.github.io/coursera-html-css-js-for-web-devs/module2-assignment/)
 * View my [Module 3 Assignment](https://xander621.github.io/coursera-html-css-js-for-web-devs/module3-assignment/)
 * View my [Module 4 Assignment](https://xander621.github.io/coursera-html-css-js-for-web-devs/module4-assignment/)
+* View my [Module 5 Assignment](https://xander621.github.io/coursera-html-css-js-for-web-devs/module5-assignment/)
 
 # _**Tools, Documentation &amp; Useful Links**_
 
